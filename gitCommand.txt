@@ -1,0 +1,5 @@
+| Command               | Action (Simple)                     |
+| --------------------- | ----------------------------------- |
+| `git add .`           | Gather all changed files            |
+| `git commit -m "..."` | Save them with a message            |
+| `git push`            | Upload that saved version to GitHub |
