@@ -1,0 +1,4 @@
+r = int(input())
+res =pow(r,2)
+area = (22/7)*res
+print(int(area))
