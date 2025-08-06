@@ -25,5 +25,5 @@ for i in range(r):
     for j in range(c):
         print((matrix[i][j] -min_val)/max_val-min_val, end=" ")
     print()
-
 '''
+
