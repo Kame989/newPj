@@ -1,0 +1,5 @@
+a = input()
+n = int(input())
+m_list= n.split()
+print(m_list)
+print(a)
