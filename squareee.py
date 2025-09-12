@@ -17,5 +17,30 @@ OR
 
 
 
-for i in range(n):
-  print(" " * (n-i-1) + "*" * (n+1))
+for i in range(0,n,1):
+  print("-" * (n-i-1) + "*" * (n+1))
+#Because each print() automatically adds a newline (\n) at the end
+'''print("123")
+print("456")
+Output:
+
+Copy code
+123
+456
+Because each print() automatically adds a newline (\n) at the end.
+
+⚡ If you want them on the same line, you override with end="":
+
+python
+Copy code
+print("123", end="")
+print("456")
+Output:
+
+Copy code
+123456
+So rule of thumb:
+
+print() = adds a newline by default
+
+print(..., end="") = no newline'''
